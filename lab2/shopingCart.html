@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <title>ShopingCart</title>
+</head>
+
+<body>
+  <header>
+    <div class="ui container">
+      <div class="ui equal width grid ng">
+        <div class="row headRow">
+          <div class="three wide column">
+            <img class="ui image animateLogo" src="img/logo.jpg">
+          </div>
+          <div class="two wide column browseButton">
+            <div class="ui compact menu">
+              <div class="ui simple dropdown item">
+                Browse
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">Choice 1</div>
+                  <div class="item">Choice 2</div>
+                  <div class="item">Choice 3</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="four wide column search">
+            <div class="ui icon input search">
+              <input type="text" placeholder="Search for item...">
+              <i class="search link icon"></i>
+            </div>
+          </div>
+          <div class="column">
+
+          </div>
+          <div class="one wide column">
+            <a href="checkout.html" class="ui medium image">
+              <img src="img/buy.jpg" class="imgBasket">
+            </a>
+          </div>
+          <div class="three wide column">
+            <div class="ui compact menu">
+              <div class="ui simple dropdown item pinkButton">
+                My Account
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">Choice 1</div>
+                  <div class="item">Choice 2</div>
+                  <div class="item">Choice 3</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="three wide column">
+
+          </div>
+          <div class="column">
+            <div class="ui secondary menu">
+              <a href="index.html" class="item">
+                Home
+              </a>
+              <a href="product.html" class="item">
+                Man
+              </a>
+              <a href="shopingCart.html" class="item active">
+                Women
+                <div class="activeLine"></div>
+              </a>
+              <a href="singlePage.html" class="item">
+                Kids
+              </a>
+              <a class="item">
+                Accoseriese
+              </a>
+              <a class="item">
+                Featured
+              </a>
+              <a class="item">
+                Hot Deals
+              </a>
+            </div>
+          </div>
+          <div class="three wide column">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="ui container blockNewArrvals">
+    <div class="ui grid">
+      <div class="four column row">
+        <div class="left floated column">
+          <h1 class="ui header">New Arrivals</h1>
+        </div>
+        <div class="right floated column">
+          <p>Home / Men / <b>New Arrivals</b></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="ui container blockProductDetails">
+    <div class="row productDetailsHeader">
+      <div class="ui equal width grid ng">
+        <div class="three wide column">Product Details</div>
+        <div class="column"></div>
+        <div class="two wide column center">unite Price</div>
+        <div class="two wide column center">Quantity</div>
+        <div class="two wide column center">shipping</div>
+        <div class="two wide column center">Subtotal</div>
+        <div class="two wide column center">ACTION</div>
+      </div>
+    </div>
+    <div class="row product">
+      <div class="ui equal width grid ng">
+        <div class="two wide column">
+          <div class="ui small image">
+            <img src="img/categorymen/man1.jpg">
+          </div>
+        </div>
+        <div class="column">
+          <h3 class="ui header">Mango People T-shirt</h3>
+          <p>Color:<b>Red</b></p>
+          <p>Size:<b>Xll</b></p>
+        </div>
+        <div class="two wide column center">$150</div>
+        <div class="two wide column center">2</div>
+        <div class="two wide column center">FREE</div>
+        <div class="two wide column center">$300</div>
+        <div class="two wide column center">O</div>
+      </div>
+    </div>
+    <div class="row product">
+      <div class="ui equal width grid ng">
+        <div class="two wide column">
+          <div class="ui small image">
+            <img src="img/categorymen/man2.jpg">
+          </div>
+        </div>
+        <div class="column">
+          <h3 class="ui header">Mango People T-shirt</h3>
+          <p>Color:<b>Red</b></p>
+          <p>Size:<b>Xll</b></p>
+        </div>
+        <div class="two wide column center">$150</div>
+        <div class="two wide column center">2</div>
+        <div class="two wide column center">FREE</div>
+        <div class="two wide column center">$300</div>
+        <div class="two wide column center">O</div>
+      </div>
+    </div>
+    <div class="row product">
+      <div class="ui equal width grid ng">
+        <div class="two wide column">
+          <div class="ui small image">
+            <img src="img/categorymen/man3.jpg">
+          </div>
+        </div>
+        <div class="column">
+          <h3 class="ui header">Mango People T-shirt</h3>
+          <p>Color:<b>Red</b></p>
+          <p>Size:<b>Xll</b></p>
+        </div>
+        <div class="two wide column center">$150</div>
+        <div class="two wide column center">2</div>
+        <div class="two wide column center">FREE</div>
+        <div class="two wide column center">$300</div>
+        <div class="two wide column center">O</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="ui grid buttonProduct">
+        <div class="four column row">
+          <div class="left floated column">
+            <button class="ui basic button">Clear Shopping Cart</button>
+          </div>
+          <div class="right floated column">
+            <button class="ui basic button">Continue Shopping</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="ui container blockBuy">
+    <div class="ui equal width grid ng">
+      <div class="five wide column shippingAdress">
+        <h3 class="ui header">shipping adress</h3>
+        <div class="ui form">
+          <div class="field">
+            <div class="ui fluid search selection dropdown">
+              <input type="hidden" name="country">
+              <i class="dropdown icon"></i>
+              <div class="default text">Select Country</div>
+              <div class="menu">
+                <div class="item" data-value="af"><i class="af flag"></i>Afghanistan</div>
+                <div class="item" data-value="ax"><i class="ax flag"></i>Aland Islands</div>
+                <div class="item" data-value="al"><i class="al flag"></i>Albania</div>
+                <div class="item" data-value="bh"><i class="bh flag"></i>Bahrain</div>
+                <div class="item" data-value="bd"><i class="bd flag"></i>Bangladesh</div>
+                <div class="item" data-value="bb"><i class="bb flag"></i>Barbados</div>
+                <div class="item" data-value="by"><i class="by flag"></i>Belarus</div>
+                <div class="item" data-value="be"><i class="be flag"></i>Belgium</div>
+                <div class="item" data-value="bz"><i class="bz flag"></i>Belize</div>
+                <div class="item" data-value="bj"><i class="bj flag"></i>Benin</div>
+                <div class="item" data-value="bm"><i class="bm flag"></i>Bermuda</div>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <input type="text" name="shipping[state]" placeholder="State">
+          </div>
+          <div class="field">
+            <input type="text" name="shipping[postCode]" placeholder="Postcode/Zip">
+          </div>
+          <button class="ui basic button">Get A Quote</button>
+        </div>
+      </div>
+      <div class="four wide column">
+        <h3 class="ui dividing header">Coupon Discount</h3>
+        <div class="ui form">
+          <div class="field">
+            <label>Enter your coupon code if you have one</label>
+          </div>
+          <div class="field">
+            <input type="text" name="shipping[state]" placeholder="State">
+          </div>
+          <button class="ui basic button">Apply Coupon</button>
+        </div>
+      </div>
+      <div class="two wide column">
+
+      </div>
+      <div class="column">
+        <div class="blockTotal">
+          <div class="topText">SUB TOTAL <b>$900</b></div>
+          <div class="bottomText">GRAND TOTAL <b>$900</b></div>
+        </div>
+        <button class="ui inverted button buttonTotal">PROCEED TO CHECKOUT</button>
+      </div>
+      <div class="one wide column">
+
+      </div>
+    </div>
+  </section>
+  <section class="blockSubscribe">
+    <div class="ui container">
+      <div class="ui internally celled grid">
+        <div class="eight wide column">
+          <div class="ui grid blockComments">
+            <div class="three wide column">
+              <div class="ui tiny circular image">
+                <img src="img/product/people2.jpg">
+              </div>
+            </div>
+            <div class="eleven wide column">
+              <div class="commentQuote">
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+              </div>
+              <div class="commentName">
+                <p class="commentTextHeader">Bin Burhan</p>
+                <p class="commentTextSub">Dhaka,Bc</p>
+              </div>
+              <div class="blockSteps">
+                <div class="step"></div>
+                <div class="step actived"></div>
+                <div class="step"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="eight wide column">
+          <div class="ui equal width grid ng enterEmail">
+            <div class="row">
+              <div class="three wide column">
+              </div>
+              <div class="column">
+                <h2 class="ui center aligned header">
+                  Subscribe
+                  <div class="sub header">For Our Newletter And Promotion</div>
+                </h2>
+              </div>
+              <div class="three wide column">
+              </div>
+            </div>
+            <div class="row">
+              <div class="two wide column">
+              </div>
+              <div class="column emailBlock">
+                <input type="text" class="emailInput" name="text" placeholder="Enter Your Email" />
+                <button class="emailButton">Subscribe</button>
+              </div>
+              <div class="two wide column">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="">
+    <section class="topFooterBlock ui container">
+      <div class="ui equal width grid ng">
+        <div class="six wide column">
+          <img class="ui image" src="img/logo.jpg">
+          <br>
+          <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate
+            multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes
+            and cross-unit partnerships.
+          </p>
+          <br>
+          <p>Efficiently plagiarize 24/365 action items and focused infomediaries.
+            Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+        </div>
+        <div class="one wide column">
+        </div>
+        <div class="three wide column footerBlock">
+          <h3 class="ui header">Company</h3>
+          <br>
+          <div class="ui link list">
+            <a href="#" class="item">Home</a>
+            <a href="#" class="item">Shop</a>
+            <a href="#" class="item">About</a>
+            <a href="#" class="item">How It Works</a>
+            <a href="#" class="item">Contact</a>
+          </div>
+        </div>
+        <div class="three wide column footerBlock">
+          <h3 class="ui header">Information</h3>
+          <br>
+          <div class="ui link list">
+            <a href="#" class="item">Tearms & Condition</a>
+            <a href="#" class="item">Privacy Policy</a>
+            <a href="#" class="item">How to Buy</a>
+            <a href="#" class="item">How to Sell</a>
+            <a href="#" class="item">Promotion</a>
+          </div>
+        </div>
+        <div class="three wide column footerBlock">
+          <h3 class="ui header">Shop Category</h3>
+          <br>
+          <div class="ui link list">
+            <a href="#" class="item">Men</a>
+            <a href="#" class="item">Women</a>
+            <a href="#" class="item">Child</a>
+            <a href="#" class="item">Apparel</a>
+            <a href="#" class="item">Browse All</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="downFooterBlock">
+      <div class="ui container">
+        <div class="ui grid">
+          <div class="four column row">
+            <div class="left floated column">
+              © 2017 Brand All Rights Reserved
+            </div>
+            <div class="right floated column">
+              <button class="ui icon button">
+                <i class="facebook f icon"></i>
+              </button>
+              <button class="ui icon button actived">
+                <i class="twitter inverted icon"></i>
+              </button>
+              <button class="ui icon disabled button">
+                <i class="linkedin icon"></i>
+              </button>
+              <button class="ui icon button">
+                <i class="pinterest p icon"></i>
+              </button>
+              <button class="ui icon button">
+                <i class="google plus g icon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+</body>
+<script src="main.js"></script>
+
+</html>
